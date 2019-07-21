@@ -25,6 +25,8 @@ namespace RazorScriptureJournal.Pages.Scriptures
         public SelectList Books { get; set; }
         [BindProperty(SupportsGet = true)]
         public string ScriptureBooks { get; set; }
+
+        [BindProperty(SupportsGet = true)]
         public string OrderBy { get; set; }
 
 
